@@ -21,8 +21,8 @@
           </ul>
       </header>
       <main>
-        <h1>barbershop borodinski</h1>
-         <section>
+          <img src="img/index-logo.png" height="155" width="371"/>
+          <section>
             <h2>быстро</h2>
             <p>мы делаем свою роботу быстро!два часа
                 пролетят незаметно и вы - счасливый
@@ -49,7 +49,7 @@
         </section>
         <div>
             <h2>фотогалерея</h2>
-            <img src="" alt="image"> <br>
+            <img src="img/Layer 21.jpg" height="164" width="286"/><br>
             <input type="button" value="вперед">
             <input type="button" value="назад">
         </div>
@@ -69,22 +69,29 @@
             <p>укажите дату и время и мы свяжемся<br>
             с вами для потверждения брони</p>
             <form action="#">
-            <p>дата</p>
-            <input type="date" name="date" value="2021-10-08">
-            <p>время</p>
-            <input type="time" name="time" value="10:00">
-            <p>ваше имя</p>
-            <input type="text" name="text" value="" placeholder="борода">
-            <p>телефон</p>
-            <input type="tel" name="phone" value="" placeholder="=7 123 456 78 90">
-             <button></button>
+                <p>
+                 <label for="appointment-date">дата</label>
+                 <input id="appointment-date" type="date" name="date" value="2021-10-08">
+                </p>
+                <p>
+                 <label for="appointment-time">время</label>
+                 <input id="appointment-time" type="time" name="time" value="10:00">
+                </p>
+                 <label for="appointment-text">ваше имя</label>
+                 <input id="appointment-text" type="text" name="text" value="" placeholder="борода">
+                </p>
+                 <label for="appointment-phone">телефон</label>
+                 <input id="appointment-phone" type="tel" name="phone" value="" placeholder="7 123 456 78 90">
+                </p>
+                <button type="submit">отправить</button>
             </form>
         </div>
       </main>
       <footer>
             <p>барбершоп"бородинский" <br>
                 адрес:г.санк-петербург,улюб.конюшенная,д.19/8</p>
-            <p><a href="#">как нас найти?</a></p>
+            <p><img src="img/map.jpg" height="668" width="874"/>
+                <a href="">как нас найти?</a></p>
             <p>телефон +7(495)666-02-66</p>
         <h2>давайте дружить!</h2>
         <nav>
