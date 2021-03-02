@@ -5,57 +5,68 @@
         <title>Барбершоп"Бородинский"</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="style.css">
-    </head>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <body>
-      <header>
-          <ul>
+    <header class="main-header">
+        <nav class="main-navigation">
+          <ul class="sit-navigation">
             <li><a href="#">информация</a>
             <li><a href="#">прайс-лист</a></li>
             <li><a href="#">магазин</a></li>
             <li><a href="#">контакты</a></li>
-        </ul>
-          <ul>
-              <li>
-                  <a href="login.html">
-                      вход
-                  </a>
-              </li>
+              <li><a href="login.html">вход</a></li>
           </ul>
+        </nav>
       </header>
-      <main>
+      <main class="container">
           <img src="img/index-logo.png" height="155" width="371"/>
-          <section>
-            <h2>быстро</h2>
-            <p>мы делаем свою роботу быстро!два часа
-                пролетят незаметно и вы - счасливый
-                обладатель стильной стрижки минутки!</p>
-            <h2>круто</h2>
-            <p>забудь как вы стриглись раньше.
-            мы зделаем из вас звизду футбола или кино!
-            во всяком случие внешне.</p>
-            <h2>дорого</h2>
-            <p>наш масстера - професионалы своего дела и
-            не могут стоить дешево. к тому же, разве цена
-            не дает опредиленый статус</p>
+          <section class="text-blok">
+              <ul class="text">
+                  <li class="text1">
+                      <h2>быстро</h2>
+                         <p>мы делаем свою роботу быстро!два часа
+                            пролетят незаметно и вы - счасливый
+                            обладатель стильной стрижки минутки!</p>
+                  </li>
+                  <li class="text1">
+                      <h2>круто</h2>
+                         <p>забудь как вы стриглись раньше.
+                             мы зделаем из вас звизду футбола или кино!
+                             во всяком случие внешне.</p>
+                  </li>
+                  <li class="text1">
+                      <h2>дорого</h2>
+                        <p>наш масстера - професионалы своего дела и
+                            не могут стоить дешево. к тому же, разве цена
+                            не дает опредиленый статус</p>
+                  </li>
+              </ul>
         </section>
-        <section>
+       <div>
+        <section class="news">
             <h2>новости</h2>
+            <ul class="news-text">
+                <li>
             <p>нам наконец завезли ягермастер! теперь вы можете
                 пропустить стаканчик во время стрижки</p>
             <time datetime="11-01-2021">11.01.2020</time>
+                </li>
+                <li>
             <p>в нашей команде пополнение, борис "бритва" стригунец,
             обладатель множества титулов и наград пополнил наши
             стройные ряды</p>
             <time detatime="18-01-2021">18.01.2021</time>
-            <p><input type="button" value="все новости"></p>
-        </section>
+                </li>
+            </ul>
+            <button type="button" >все новости</button>
         <div>
             <h2>фотогалерея</h2>
-            <img src="img/Layer 21.jpg" height="164" width="286"/><br>
-            <input type="button" value="вперед">
-            <input type="button" value="назад">
-        </div>
-        <div>
+            <img class="slide" src="img/Layer 21.jpg" height="164" width="286"/><br>
+            <button type="button">вперед</button>
+            <button type="button">назад</button>
+       </div>
+        </section>
+          <div class="coloms">
             <h2>контактна информация</h2>
             <p>барбершоп  "бородинский" <br>
                 адрес:г.санк-петербург,улюб.конюшенная,д.19/8<br>
@@ -65,8 +76,6 @@
             сб-вс:c10.00 до 19.00</p>
             <a href="#">как проехать</a>
             <a href="#">обратная связь</a>
-        </div>
-        <div>
             <h2>записатся</h2>
             <p>укажите дату и время и мы свяжемся<br>
             с вами для потверждения брони</p>

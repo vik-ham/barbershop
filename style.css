@@ -1,9 +1,67 @@
-header{
-   background:url() ;
-}
 body{
-    background: url("img/Layer.jpg");
+    margin: 0;
+    padding: 0;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+
+    background:url("img/Layer.jpg");
+    background-color: black;
+    background-position: top center;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-transform: uppercase;
 }
-p,h2{
+.main-header{
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+   background-color: black;
+}
+.button{
+    background-color: black;
+    background: black;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    border: none;
+    font: inherit;
+}
+.button:hover,
+.button:
+.main-header{
+    list-style: none;
+    margin: 0;
+    padding-left:0;
+}
+a{
+    text-decoration: none;
     color: white;
 }
+.text{
+    list-style: none;
+    text-align: center;
+}
+.news{
+    background-color: white;
+    background-image: url("img/Layer 21.jpg");
+    background:white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.news-text{
+    list-style: none;
+}.fotogallery{
+    background-color:white;
+    color: black;
+ }
+ .colonds{
+     background: white;
+     color: black;
+ }
+
+
