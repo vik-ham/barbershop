@@ -15,53 +15,86 @@ body{
     text-transform: uppercase;
 }
 .main-header{
-    font-size: 16px;
+    font-size: 12px;
     line-height: 20px;
     color: white;
-   background-color: black;
-}
-.button{
     background-color: black;
-    background: black;
-    color: white;
-    text-align: center;
-    vertical-align: middle;
-    text-transform: uppercase;
-    border: none;
-    font: inherit;
+    min-height: 72px;
 }
-.button:hover,
-.button:
-.main-header{
-    list-style: none;
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.site-nav{
+    padding: 0;
     margin: 0;
-    padding-left:0;
+    width: 540px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.user{
+    padding: 0;
+    margin: 0;
+    width: 140px;
 }
 a{
-    text-decoration: none;
     color: white;
+    text-decoration: none;
 }
-.text{
-    list-style: none;
-    text-align: center;
-}
-.news{
-    background-color: white;
-    background-image: url("img/Layer 21.jpg");
-    background:white;
-    color: black;
-    margin: 0;
+.main-container{
     padding: 0;
 }
-.news-text{
-    list-style: none;
-}.fotogallery{
-    background-color:white;
+.text-block{
+
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-block li{
+   list-style: none;
+    background-color: chocolate;
+    width: 300px;
+    height: 196px;
+}
+.container-news{
+    width: 940px;
+    height: 422px;
+    background-color: #faf7f4;
     color: black;
- }
- .colonds{
-     background: white;
-     color: black;
- }
+    display: flex;
+}
+.news{
+    width: 470px;
+    height: 423px;
+    background-color: crimson;
+}
+.news-text{
+    margin: 0;
+    list-style: none;
+    display: inline;
+}
+.fotogaleri{
+background-color: cyan;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

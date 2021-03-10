@@ -1,47 +1,127 @@
+main-body{
+    width: 1200px;
+    height: 1173px;
+    margin: 0;
+    background: #f2efec;
+
+}
 .main-header{
     background-color: black;
     min-height: 72px;
 }
 .container{
-display: flex;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.main-shop{
+    width: 1200px;
+}
+.produkt{
+}
+.container-name{
+    width: 195px;
+    height: 570px;
+}
+.cheked{
+    width: 195px;
+    height: 262px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 130px;
+
+}
+.radio{
+    width: 220px;
+    height: 287px;
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+    padding-left: 130px;
+    font-size: 14px;
 }
 .site-nav{
     padding: 0;
     margin: 0;
+    width: 540px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
-.user-log{
+.user{
     padding: 0;
     margin: 0;
     width: 140px;
 }
 a{
-    color: blanchedalmond;
+    color: white;
     text-decoration: none;
 }
-.main-body{
-    margin: 0;
-}
-.container-name{
-    display: inline;
+.container-merch{
+    width: 700px;
+    height: 595px;
+    display: flex;
+    margin-left: 340px;
+    margin-top: -545px;
+    flex-wrap: wrap;
 }
 .container-merch-block{
     width: 220px;
-    height: 284px;
-    margin: auto;
+    height: 285px;
     padding: 0;
-    border: 0;
-    
+    margin-right: 7px;
+    background-color: white;
+    border: ridge;
 }
-.container-merch{
+.price-img-title{
+    margin-top: 30px;
+    padding-left: 18px;
     display: flex;
-    align-items: center;
-    padding-left: 370px;
-   
 }
 .img-title{
-    text-align: center;
-    margin: 0;
+    margin: auto;
+    padding-left: 18px;
 }
 .price{
+    background: #e5e5e5;
+    width: 109px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
     margin: 0;
+    display: inline-grid;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 75px;
+    height: 40px;
+}
+footer{
+    height: 190px;
+    background: #212121;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info{
+    width: 310px;
+    height: 120px;
+}
+.socseti{
+    width: 200px;
+    height: 120px;
+}
+.rozrab{
+    width: 160px;
+    height: 80px;
+}
+.socseti-ul{
+    padding: 0;
+    line-height: 15px;
 }

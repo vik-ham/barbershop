@@ -8,33 +8,41 @@
         <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <body>
     <header class="main-header">
-        <nav class="main-navigation">
-          <ul class="sit-navigation">
-            <li><a href="#">информация</a>
-            <li><a href="#">прайс-лист</a></li>
-            <li><a href="#">магазин</a></li>
-            <li><a href="#">контакты</a></li>
-              <li><a href="login.html">вход</a></li>
-          </ul>
+        <nav class="container">
+            <div>
+                <img src="img/logo.png" height="24" width="111"/>
+            </div>
+            <ul class="site-nav">
+                <li><a href="#">информация</a></li>
+                <li><a href="#">новости</a></li>
+                <li><a href="#">прайс-лист</a></li>
+                <li><a href="#">магазин</a></li>
+                <li><a href="#">контакты</a></li>
+            </ul>
+            <ul class="user">
+                <a href="#">вход</a>
+            </ul>
         </nav>
-      </header>
-      <main class="container">
+    </header>
+      <main class="main-container">
+          <div class="logo-2">
           <img src="img/index-logo.png" height="155" width="371"/>
-          <section class="text-blok">
+          </div>
+          <section class="text-block">
               <ul class="text">
-                  <li class="text1">
+                  <li>
                       <h2>быстро</h2>
                          <p>мы делаем свою роботу быстро!два часа
                             пролетят незаметно и вы - счасливый
                             обладатель стильной стрижки минутки!</p>
                   </li>
-                  <li class="text1">
+                  <li>
                       <h2>круто</h2>
                          <p>забудь как вы стриглись раньше.
                              мы зделаем из вас звизду футбола или кино!
                              во всяком случие внешне.</p>
                   </li>
-                  <li class="text1">
+                  <li>
                       <h2>дорого</h2>
                         <p>наш масстера - професионалы своего дела и
                             не могут стоить дешево. к тому же, разве цена
@@ -43,9 +51,10 @@
               </ul>
         </section>
        <div>
-        <section class="news">
-            <h2>новости</h2>
+        <section class="container-news">
+            <div class="news">
             <ul class="news-text">
+                <h2>новости</h2>
                 <li>
             <p>нам наконец завезли ягермастер! теперь вы можете
                 пропустить стаканчик во время стрижки</p>
@@ -59,7 +68,8 @@
                 </li>
             </ul>
             <button type="button" >все новости</button>
-        <div>
+            </div>
+        <div class="fotogaleri">
             <h2>фотогалерея</h2>
             <img class="slide" src="img/Layer 21.jpg" height="164" width="286"/><br>
             <button type="button">вперед</button>
