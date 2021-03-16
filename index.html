@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+       <head>
         <meta charset="UTF-8">
         <title>Барбершоп"Бородинский"</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
-    <body>
+        </head>
+   <body>
     <header class="main-header">
         <nav class="container">
-            <div>
+            <div class="logo">
                 <img src="img/logo.png" height="24" width="111"/>
             </div>
+            <div class="div-site-nav">
             <ul class="site-nav">
                 <li><a href="#">информация</a></li>
                 <li><a href="#">новости</a></li>
@@ -19,9 +21,10 @@
                 <li><a href="#">магазин</a></li>
                 <li><a href="#">контакты</a></li>
             </ul>
-            <ul class="user">
-                <a href="#">вход</a>
-            </ul>
+            </div>
+            <div class="user">
+                <a class="user-link" href="#">вход</a>
+            </div>
         </nav>
     </header>
       <main class="main-container">
@@ -50,85 +53,111 @@
                   </li>
               </ul>
         </section>
-        <section class="container-news">
+        <div class="suka">
+          <section class="container-news">
             <div class="news">
-            <ul class="news-text">
-                <h2>новости</h2>
-                <li>
-            <p>нам наконец завезли ягермастер! теперь вы можете
-                пропустить стаканчик во время стрижки</p>
-            <time datetime="11-01-2021">11.01.2020</time>
-                </li>
-                <li>
-            <p>в нашей команде пополнение, борис "бритва" стригунец,
-            обладатель множества титулов и наград пополнил наши
-            стройные ряды</p>
-            <time detatime="18-01-2021">18.01.2021</time>
-                </li>
-            </ul>
-            <button type="button" >все новости</button>
+                <ul class="news-text">
+                    <h2>новости</h2>
+                    <li>
+                        <p>нам наконец завезли ягермастер! теперь вы можете
+                        пропустить стаканчик во время стрижки</p>
+                        <time datetime="11-01-2021">11.01.2020</time>
+                    </li>
+                    <li>
+                        <p>в нашей команде пополнение, борис "бритва" стригунец,
+                        обладатель множества титулов и наград пополнил наши
+                        стройные ряды</p>
+                        <time detatime="18-01-2021">18.01.2021</time>
+                    </li>
+                </ul>
+                 <button type="button" >все новости</button>
             </div>
-        <div class="fotogaleri">
-            <h2>фотогалерея</h2>
-            <figure class="fotogaleri-content">
-            <img class="slide" src="img/Layer 21.jpg" height="164" width="286"/><br>
-            </figure>
-            <button type="button">вперед</button>
-            <button type="button">назад</button>
-       </div>
-        </section>
-          <div class="colons">
+            <div class="fotogaleri">
+                <h2>фотогалерея</h2>
+                <figure class="fotogaleri-content">
+                    <img class="slide" src="img/Layer 21.jpg" height="164" width="286"/><br>
+                </figure>
+                <button type="button">вперед</button>
+                <button type="button">назад</button>
+            </div>
+          </section>
+         </div>
+         <div class="colons-info-form">
+            <div class="colons">
               <div class="colons-info">
                 <h2>контактна информация</h2>
                 <p>барбершоп  "бородинский" <br>
                  адрес:г.санк-петербург,улюб.конюшенная,д.19/8<br>
                 телефон +7(495)666-02-66</p>
-                 <p>время роботы:<br>
+                 <p>время роботы:<br>   
                 пн-пт:с10:00 до 22:00<br>
                 сб-вс:c10.00 до 19.00</p>
                 <a href="#">как проехать</a>
                 <a href="#">обратная связь</a>
-              </div>
-              <div class="colons-form">
+               </div>
+               <div class="colons-form">
                 <h2>записатся</h2>
                 <p>укажите дату и время и мы свяжемся<br>
                  с вами для потверждения брони</p>
-                <form action="#">
-                 <p>
+                <form class="form" action="#">
+                 <p class="text-form">
                   <label for="appointment-date">дата</label>
                   <input id="appointment-date" type="date" name="date" value="2021-10-08">
                  </p>
-                 <p>
+                 <p class="text-form">
                   <label for="appointment-time">время</label>
                   <input id="appointment-time" type="time" name="time" value="10:00">
                  </p>
+                 <p class="text-form">
                   <label for="appointment-text">ваше имя</label>
                   <input id="appointment-text" type="text" name="text" value="" placeholder="борода">
                  </p>
+                 <p class="text-form">
                   <label for="appointment-phone">телефон</label>
                   <input id="appointment-phone" type="tel" name="phone" value="" placeholder="7 123 456 78 90">
                  </p>
                   <button type="submit">отправить</button>
                </form>
               </div>
+            </div>
         </div>
       </main>
       <footer>
-            <p>барбершоп"бородинский" <br>
+          <div class="info-footer">
+          <div class="info">
+                <p>барбершоп"бородинский" <br>
                 адрес:г.санк-петербург,улюб.конюшенная,д.19/8</p>
-            <p>
-                <a href="">как нас найти?</a></p>
-            <p>телефон +7(495)666-02-66</p>
-        <h2>давайте дружить!</h2>
-        <nav>
-            <ul>
-                <li><a href="https://vk.com/">VK</a></li>
-                <li><a href="https://www.facebook.com/">Facebook</a></li>
-                <li><a href="https://www.instagram.com/">Instagram</a></li>
-            </ul>
-        </nav>
-        <h2>разработано: <br>
-        vik-ham</h2>
+                <p>
+                <a href="">как нас найти?</a>
+                </p>
+          </div>      
+          <nav class="socseti">
+            <h4>давайте дружить!</h4>
+              <ul>
+                <li>
+                    <a class="social-botton" href="#">
+                        <span class="vissualy-botton"></span>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="15" viewBox="0 0 27 15">
+                            <image id="vk" width="27" height="15" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAPCAYAAAAVk7TYAAABZElEQVQ4ja2UzytEURzFz50pv5KfJUsLLGSr1KzYW2Npyj9gJTaaZGFNEVZsbEfZiGaDYuFHKawksvNzNSUfvXovz5t736Xm1Fvce8495/u9r/s1QI+kQUlZ/eDUGHMVrYCCpHFJ3fqNBWPMbHwH6JXUp0qcB+Q6lfgAWmMGOeDOoislLYETiy7ARkbSqqWKRkmT0cIYcyhpzaJLBuUkDTjoYiQqWSp5AupjRqO+zoB9R1cHAZ8JdXOWSjolTcXWZU9XI5KGLdS7pHxSvGep6BXoCPkJV2dAC3Dv6GrMVlk/8GkR7wBZYNHC3QB1wK4jaCntKpYdhy6ANwfn2r8GatPC2oBHx+H/YibtH0eBQ8BXFcIegOQQsAYWqtSdPxDIAMU/Gh4Dl57ALl9gA7DtCSoHYy3U2gZDhGCE1fzlSvPAi8PkNqZrBs5SAue9YaFROzANHAHP4WMPvs2ErgnYsr5XWPkGdX6x24UB+rIAAAAASUVORK5CYII="/>
+                        </svg>
+                </a></li>
+                <li>
+                    <a class="social-botton" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11" height="22" viewBox="0 0 11 22">
+                    <image id="facebook" width="11" height="22" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAWCAYAAAAW5GZjAAAAnElEQVQoke2RMQrCQBBF3y7iKexsAwqWCh7EOpDSQ3iI3MDWziOksrKwl1TW1vkhkMgkbpTtLHzVn53HMMxikeQlZZKueuc0oU8OpIzgu2dJi09ig528DvQFlEAFPKw8Dcg759yxK3xAsNxs8U3u4SQdgA0wA+aD/gV4tvnc7JwA25FhK5OLmDXuMXL5SpL2gS9eWjvqGn/512SgBgqxSKBLtTcWAAAAAElFTkSuQmCC"/>
+                  </svg>
+                </a></li>
+                <li>
+                    <a class="social-botton" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+                    <image id="instagram" width="20" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABEUlEQVQ4ja2UsW7CMBRFr4EtSyIGwtSFhQ/pNzDBD/AFfCdTpqqdOrQSXduKiy56bo0xDsi5kpXn9+yj59zEILki+cFyibFyCgBMMYw+BWQBagngHUAN4EWJUmDjnDso8JxR4UEbg7U+Udrhlfo6fAOwATC3sbHcbWU+lleSs3ijclZLKgdc3+pCtXuATyRrkr82bzPA1tb8kGxs31mTYN2XPgGSRwDjOz2QoQfn/r1NmdLZ8zkD8rVOsLh9r9rmuwdM2cWcFLAi2QXQtb2z1mIP05qqF2jFRQBNSbVF6qRJYNCpjr8n+W1jb7kKkXqBEVw2uoxJf5zQ5fOPnpKcvHLzEnZxOQx6warDrYIhYAC2JzGRHNRALJy4AAAAAElFTkSuQmCC"/>
+                  </svg>
+                </a></li>
+              </ul>
+          </nav>
+            <div class="rozrab">
+          <h4>разработано: <br>
+        vik-ham</h4>
+         </div>
+        </div>
       </footer>
     </body>
 </html>
